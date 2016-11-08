@@ -21,13 +21,17 @@ namespace JabberBCIT.Controllers
             return View();
         }
 
-        //public ActionResult CreateForumPost(ForumPost post)
-        //{
-        //    db.ForumPosts.Add(post);
-        //    db.SaveChanges();
+        [HttpPost]
+        public ActionResult CreateForumPost(ForumPost post)
+        {
+            //post.UserID = User.Identity.   Users.identity.getuserid();
+            post.PostTimestamp = DateTime.Now;
+            post.Votes = 0;
 
-        //    return View
-        //}
+            db.ForumPosts.Add(post);
+            db.SaveChanges();
+            return View();
+        }
 
         public ActionResult ViewForumThread()
         {
