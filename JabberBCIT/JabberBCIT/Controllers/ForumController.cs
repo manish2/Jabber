@@ -24,7 +24,7 @@ namespace JabberBCIT.Controllers
         [HttpPost]
         public ActionResult CreateForumPost(ForumPost post)
         {
-            //post.UserID = User.Identity.   Users.identity.getuserid();
+            //post.UserID = User.Identity.
             post.PostTimestamp = DateTime.Now;
             post.Votes = 0;
 
