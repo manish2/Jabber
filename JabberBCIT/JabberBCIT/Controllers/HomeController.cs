@@ -21,5 +21,9 @@ namespace JabberBCIT.Controllers {
 
             return View();
         }
+        public ActionResult BasicChat()
+        {
+            return View();
+        }
     }
 }

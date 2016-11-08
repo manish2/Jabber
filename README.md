@@ -1,2 +1,0 @@
-# Jabber
-Jabber@BCIT
