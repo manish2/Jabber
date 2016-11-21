@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-// Account View Models
+// Account View Models test
 namespace JabberBCIT.Models
 {
     public class ExternalLoginConfirmationViewModel
