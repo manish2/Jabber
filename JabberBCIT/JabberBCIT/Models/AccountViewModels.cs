@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-// Account View Models
+// Account View Models///
 namespace JabberBCIT.Models
 {
     public class ExternalLoginConfirmationViewModel
@@ -20,7 +20,7 @@ namespace JabberBCIT.Models
         public string SelectedProvider { get; set; }
         public ICollection<System.Web.Mvc.SelectListItem> Providers { get; set; }
         public string ReturnUrl { get; set; }
-        public bool RememberMe { get; set; }///////////////////////////////////////////////////////
+        public bool RememberMe { get; set; }/
     }
 
     public class VerifyCodeViewModel
