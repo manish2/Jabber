@@ -24,7 +24,7 @@ namespace JabberBCIT.Models
     }
 
     public class VerifyCodeViewModel
-    {/
+    {//
         [Required]
         public string Provider { get; set; }
 
