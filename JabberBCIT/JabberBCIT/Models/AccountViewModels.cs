@@ -24,7 +24,7 @@ namespace JabberBCIT.Models
     }
 
     public class VerifyCodeViewModel
-    {/// <summary>/////
+    {/// <summary>//////
     /// 
     /// </summary>
         [Required]
